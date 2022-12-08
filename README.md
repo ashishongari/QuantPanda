@@ -1,4 +1,4 @@
-Backtest trading Strategies using various technical indicators
+Backtest trading strategies using various technical indicators
 ______________________________________________________________
 
 #Install The library 
