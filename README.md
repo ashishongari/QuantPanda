@@ -17,9 +17,15 @@ import pandas as pd
 
 df = pd.read_csv(r'INFY.csv')
 
+
 #Final output will be tradelog. Format of tradelog : Entry Date | Entry Price | Exit Date | Exit Price
 
-QuantPanda.SimpleMovingAverageCrossover(df, 100)
+tradelog_df = QuantPanda.SimpleMovingAverageCrossover(df, 100)
+
+
+#Generate Performance Metrics
+
+QuantPanda.PerformanceMetrics(tradelog_df)
 
 ______________________________________________________________
 
