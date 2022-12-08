@@ -27,7 +27,7 @@ List of technical indicators:
 3.  Double Crossover Simple Moving Crossover
 4.  Double Crossover Exponential Moving Crossover
 5.  RSI
-6.  Adx
+6.  ADX
 7.  Supertrend
 8.  William's R Indicator
 9.  Parabolic SAR
