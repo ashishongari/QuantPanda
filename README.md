@@ -1,11 +1,11 @@
 Backtest trading Strategies using various technical indicators
 ______________________________________________________________
 
-Install The library 
+#Install The library 
 
 pip install QuantPanda
 
-DataFrame Struture : date | open | high | low | close | volume
+#DataFrame Struture : date | open | high | low | close | volume
 
 ______________________________________________________________
 Snippet of a Simple Moving Average Crossover
