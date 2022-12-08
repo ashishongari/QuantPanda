@@ -1,23 +1,27 @@
 Backtest trading Strategies using various technical indicators
+______________________________________________________________
 
-#Install The library 
+Install The library 
+
 pip install QuantPanda
 
-#DataFrame Struture 
-date | open | high | low | close | volume
+DataFrame Struture : date | open | high | low | close | volume
 
-#Snippet of a Simple Moving Average Crossover
+______________________________________________________________
+Snippet of a Simple Moving Average Crossover
+______________________________________________________________
 
 from quantpanda import QuantPanda
+
 import pandas as pd
 
-#dataframe
 df = pd.read_csv(r'INFY.csv')
 
-#generate tradelog for a Simple Moving Average Crossover of 100
 QuantPanda.SimpleMovingAverageCrossover(df, 100)
 
-#List of technical indicators:
+______________________________________________________________
+
+List of technical indicators:
 1.  Simple Moving Crossover
 2.  Exponential Moving Crossover
 3.  Double Crossover Simple Moving Crossover
